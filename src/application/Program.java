@@ -3,7 +3,7 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
-import jogodetabuleiro.Posicao;
+import jogodetabuleiro.Tabuleiro;
 
 public class Program {
 
@@ -11,9 +11,7 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		Posicao pos = new Posicao(3,5);
-		System.out.println(pos);
-		
+		Tabuleiro tabuleiro = new Tabuleiro(8,5);
 
 		
 		
