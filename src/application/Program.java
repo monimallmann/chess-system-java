@@ -4,6 +4,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 import jogodetabuleiro.Tabuleiro;
+import xadrez.PartidaDeXadrez;
 
 public class Program {
 
@@ -11,7 +12,8 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		Tabuleiro tabuleiro = new Tabuleiro(8,5);
+		PartidaDeXadrez partidaDeXadrez = new PartidaDeXadrez();
+		IU.printTabuleiro (partidaDeXadrez.getPecas());
 
 		
 		

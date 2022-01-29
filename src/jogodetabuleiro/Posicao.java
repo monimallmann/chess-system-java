@@ -17,7 +17,10 @@ public class Posicao {
 	public void setLinha(Integer linha) {
 		this.linha = linha;
 	}
-	public void getColuna() {
+	public Integer getColuna() {
+		return coluna;
+	}
+	public void setColuna(Integer coluna) {
 		this.coluna = coluna;
 	}
 	@Override
